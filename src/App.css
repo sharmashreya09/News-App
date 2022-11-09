@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #61dafb;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: grey;
+  position: sticky;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.header {
+  background-color: #333;
+  height: 30px;
+  display: flex;
+  color: #61dafb;
+
+}
+
+.header p {
+  padding: 5px;
+
+}
+
+.blank {
+  padding-left: 65px;
+  font-size: 70px;
+  height: 120px;
+  padding-top: 5px;
+  color: #61dafb;
+  font-weight: bolder;
+  background-color: beige;
+
+}
+
+
+.slogan {
+  color: #61dafb;
+  font-size: 35px;
+  position: absolute;
+  top:69px;
+  left:520px;
+}
+.text-center
+{
+ color:#04AA6D;
+ font-weight: bolder;
+}
+
+
+body{
+  background-color:aliceblue;
+}
